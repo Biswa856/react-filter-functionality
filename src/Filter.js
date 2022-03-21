@@ -8,7 +8,7 @@ export default function Filter(props){
     <div>
      
       {
-        data.map((ele,key)=>{
+        data.map((ele)=>{
          return(
            <>
            <p>{ele.category}</p>
